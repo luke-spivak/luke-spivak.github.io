@@ -18,17 +18,15 @@ strong {
     color: #333;
   }
 
-.links a {
-    display: inline-block;
-    margin: 10px;
-    padding: 8px 12px;
-    text-decoration: none;
-    color: #0073e6;
-    border: 1px solid #0073e6;
-    border-radius: 5px;
+a {
+    display: block;  /* Makes each link appear on its own line */
+    margin: 10px 0;  /* Adds spacing between links */
+    font-size: 18px;  /* Slightly larger text for readability */
+    text-decoration: none;  /* Removes the underline */
+    color: #0073e6;  /* Nice blue color */
 }
 
-.links a:hover {
-    background-color: #0073e6;
-    color: white;
+a:hover {
+    text-decoration: underline;  /* Underline on hover for better interaction */
+    color: #005bb5;  /* Darker blue on hover */
 }
